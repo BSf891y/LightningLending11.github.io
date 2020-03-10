@@ -38,11 +38,11 @@ body {
 #testimonials {
   padding: 7% 15%;
   text-align: center;
-  background-color: #ef8172;
+  background-color: #fcba03;
   color: #fff;
 }
 #press {
-  background-color: #ef8172;
+  background-color: #fcba03;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -83,6 +83,7 @@ body {
   /*transform: rotate(20deg);*/
   position: absolute;
   right: 20%;
+  margin-top: -6rem;
 }
 /* features */
 .feature {
@@ -91,10 +92,10 @@ body {
 }
 .feature-img {
   margin-bottom: 1rem;
-  color: #ef8172;
+  color: #fcba03;
 }
 .feature-img:hover {
-    color: #ff4c68;
+    color: #89c4f4;
 }
 .feature-description {
   text-align: center;
