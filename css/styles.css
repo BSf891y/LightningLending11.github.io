@@ -117,3 +117,11 @@ body {
 .pricing-column {
   padding: 3% 2%;
 }
+.btn-warning {
+  background-color: #ffc100;
+}
+.btn-outline-warning {
+  color: #ffc100;
+  border-color: #ffc100;
+
+}
