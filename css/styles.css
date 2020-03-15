@@ -2,7 +2,7 @@
 /*********************tags**************************/
 h1 {
   font-family: "Montserrat";
-  font-size: 3.5rem;
+  font-size: 4.0rem;
   line-height: 1.5;
   font-weight: 900;
 }
@@ -25,7 +25,7 @@ body {
 
 /********************ids****************************/
 #title {
-  background-color: #fcba03;
+  background-color: #ffc100;
   color: white;
 }
 #features {
@@ -34,13 +34,13 @@ body {
   position: relative;
 }
 #testimonials {
-  padding: 7% 15%;
+  padding: 3% 15%;
   text-align: center;
-  background-color: #fcba03;
+  background-color: #b9d5d5;
   color: #fff;
 }
 #press {
-  background-color: #fcba03;
+  background-color: #b9d5d5;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -56,7 +56,7 @@ body {
 }
 /* Navigation Bar */
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 4rem;
 }
 .navbar-brand {
   font-family: 'Open Sans', sans-serif;
@@ -80,8 +80,6 @@ body {
 .title-image {
   /*transform: rotate(20deg);*/
   right: 20%;
-  margin-top: -6rem;
-  margin-left: -6rem;
 }
 /* features */
 .feature {
@@ -93,7 +91,7 @@ body {
   color: #fcba03;
 }
 .feature-img:hover {
-    color: #89c4f4;
+    color: #b9d5d5;
 }
 .feature-description {
   text-align: center;
