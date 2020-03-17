@@ -1,2 +1,2 @@
 # LightningLending
-Bootstrap site made following Complete Web Developer tutorial on Udemy for a company i made up.
+Bootstrap site for fake company made following Complete Web Developer tutorial on Udemy.
