@@ -54,9 +54,7 @@ body {
 }
 /* title image */
 .title-image {
-  /*transform: rotate(20deg);*/
-  position: relative;
-  left: 10%;
+
 }
 
 
@@ -113,7 +111,7 @@ body {
 
 
 /* Pricing section */
-#pricing {
+#apply {
   padding: 100px;
   text-align: center;
 }
@@ -129,13 +127,31 @@ body {
   border-color: #ffc100;
 
 }
-@media (device-width: 768px) {
-  .title-image {
-    padding-left: 100px;
-  }
+#cta {
+  padding: 7% 15%;
+  background-color:#ffc100;
+  text-align: center;
+  color: #fff;
+}
+.cta-heading {
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.social-icon {
+  margin: 20px 20px;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
 }
 @media (max-width: 1028px) {
   #title {
     text-align: center;
+  }
+  h1 {
+    font-size: 3.5rem;
   }
 }
