@@ -1,2 +1,2 @@
 # LightningLending
-Website for a made up personal loan app.
+Bootstrap site made following Complete Web Developer tutorial on Udemy for a company i made up.
