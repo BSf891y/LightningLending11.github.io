@@ -1,0 +1,35 @@
+/* header.css */
+
+/* Header styles */
+.header {
+    background-image: url('bolt_cover.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Logo styles */
+.logo {
+    width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Navigation styles */
+.navbar {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
