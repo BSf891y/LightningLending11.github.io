@@ -1,66 +1,60 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f2f2f2;
 }
 
 .logo img {
-  width: 80px;
-  height: auto;
+    width: 100px; /* Adjust size as needed */
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-  margin-left: 20px;
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: green;
-  transition: color 0.3s;
+    text-decoration: none;
+    color: #333;
 }
 
-nav ul li a:hover {
-  color: red;
+.menu-icon {
+    display: none; /* Hidden by default */
 }
 
-.banner {
-  background-image: url("images/lady-img.jpg");
-  background-size: cover;
-  text-align: center;
-  padding: 100px 0;
-  color: #fff;
-}
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
-.banner h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
 
-.banner p {
-  font-size: 18px;
-}
+    nav {
+        display: none; /* Hide navigation by default */
+    }
 
-.slider {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-}
-
-.slider img {
-  scroll-snap-align: center;
-  max-width: 100%;
+    nav.active {
+        display: block;
+    }
 }
