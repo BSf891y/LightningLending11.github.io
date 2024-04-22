@@ -1,55 +1,65 @@
-/* styles.css */
-
-/* Reset default margin and padding */
-body, h1, p, ul, li {
-    margin: 0;
-    padding: 0;
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Header styles */
-.header {
-    background-image: url('ashley.jpg');
-    background-size: cover;
-    padding: 20px 0;
+body {
+  font-family: Arial, sans-serif;
 }
 
-.header-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff; /* Header background color */
 }
 
-.logo {
-    max-height: 50px;
+.logo img {
+  max-width: 150px; /* Adjust logo width */
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
+nav ul {
+  list-style-type: none;
 }
 
-.nav-links li {
-    margin-right: 20px;
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
 }
 
-.nav-links li a {
-    color: #fff;
-    text-decoration: none;
+nav ul li a {
+  text-decoration: none;
+  color: green; /* Default text color */
+  transition: color 0.3s ease;
 }
 
-/* Main content styles */
-.main-content {
-    padding: 50px 20px;
-    text-align: center;
+nav ul li a:hover {
+  color: red; /* Text color on hover */
 }
 
-.main-content h1 {
-    color: #333;
-    margin-bottom: 20px;
+.company-name {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
 }
 
-.main-content p {
-    color: #666;
-    margin-bottom: 20px;
+.header-image {
+  height: 300px; /* Adjust header image height */
+  background-image: url('images/lady-img.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slider img {
+  max-width: 100px; /* Adjust slider image width */
+  margin: 0 10px;
 }
