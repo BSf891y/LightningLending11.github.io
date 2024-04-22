@@ -1,65 +1,66 @@
-/* Reset CSS */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
 }
 
 header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
   padding: 20px;
-  background-color: #fff; /* Header background color */
+  background-color: #fff;
 }
 
 .logo img {
-  max-width: 150px; /* Adjust logo width */
+  width: 80px;
+  height: auto;
 }
 
 nav ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 nav ul li {
-  display: inline-block;
-  margin-right: 20px;
+  margin-left: 20px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: green; /* Default text color */
-  transition: color 0.3s ease;
+  color: green;
+  transition: color 0.3s;
 }
 
 nav ul li a:hover {
-  color: red; /* Text color on hover */
+  color: red;
 }
 
-.company-name {
-  text-align: center;
-  font-size: 24px;
-  margin-top: 20px;
-}
-
-.header-image {
-  height: 300px; /* Adjust header image height */
-  background-image: url('images/lady-img.jpg'); /* Background image */
+.banner {
+  background-image: url("images/lady-img.jpg");
   background-size: cover;
-  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  font-size: 18px;
 }
 
 .slider {
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
 }
 
 .slider img {
-  max-width: 100px; /* Adjust slider image width */
-  margin: 0 10px;
+  scroll-snap-align: center;
+  max-width: 100%;
 }
